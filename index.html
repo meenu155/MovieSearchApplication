@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a05f378d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-in">
+            <div class="logo-in">
+                <h1 class="logo">MoviesUnderground</h1>
+            </div>
+            <div class="menu-in">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-in">
+                <img class="profile-picture" src="images/mv.jpg" alt="">
+                <div class="profile-text-in">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <img src="images/moon.png" id="icon">
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class=" left-menu-item fa-solid fa-house"></i>
+        <i class="left-menu-item fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-item fa-solid fa-bookmark"></i>
+        <i class="left-menu-item fa-solid fa-tv"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="topscreen" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url(https://flxt.tmsimg.com/assets/p8630071_b_h8_bb.jpg);  background-size: cover;">
+                <h1 style="color:red;">SUITS</h1>
+                <p class="topscreen-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis minima voluptatibus incidunt. Accusamus, provident.</p>
+                <button class="topscreen-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="data:image/jpeg;base64,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
+                        ETiouk7KoX7K4cL9khh423H1gtTc285rUz+yZ13BJ/K3pKbMzPr1C50/d18OZl1HDgohtqxYfCx/pKBdVLAaMCvlr/wZdTr90AfZWw
+                        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"
+                            alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_qA0YILHchWp3oduYj33747ZlsFc3gjsBJA&usqp=CAU" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR
+                        uPIjEs8ExVQZCLJQxHwIdsm53CobGd-e1vMsH6isgJxoxuR6q" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://i.pinimg.com/550x/3e/1a/31/3e1a3118e2abafaa8adb7b2a3710f729.jpg" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_FMjpg_UX1000_.jpg" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://www.themoviedb.org/t/p/original/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-image" src="https://br.web.img3.acsta.net/r_1280_720/pictures/20/09/07/01/08/4604126.png" alt="">
+                        <span class="movie-list-item-title">Evil Dead Rise</span>
+                        <p class="movie-list-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, explicabo ipsum? Dolorem voluptates, eaque cum doloribus nemo architecto id minima hic ratione nesciunt molestiae rem aliquam fuga eos. Possimus, perferendis.</p>
+                        <button class="movie-list-item-btn">WATCH</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var icon = document.getElementById("icon");
+            icon.onclick = function() {
+                document.body.classList.toggle("dark-theme");
+                if (document.body.classList.contains("dark-theme")) {
+                    icon.src = "images/sun.png";
+                } else {
+                    icon.src = "images/moon.png"
+                }
+            }
+        </script>
+</body>
+
+</html>
