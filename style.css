@@ -255,3 +255,33 @@ body {
 .order {
     display: flex;
 }
+
+.submitbtn {
+    background-color: #4dbf00;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.submitbtn:hover {
+    background-color: gold;
+}
+
+.searchbox {
+    width: 150px;
+    height: 20px;
+    background-color: whites;
+    border: solid #4dbf00 3px;
+}
+
+.fas.fa-caret-down {
+    transition: transform .4s;
+}
+
+.fas.fa-caret-down:hover {
+    color: #4dbf00;
+    transform: scale(1.2);
+}
